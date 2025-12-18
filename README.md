@@ -145,11 +145,7 @@ A fully functional dApp where users complete interactive learning challenges abo
 
 ## Smart Contract
 
-### Contract Address (Arbitrum Sepolia)
 
-```
-[Deploy and add address here]
-```
 
 ### Key Functions
 
@@ -184,8 +180,7 @@ event ProofClaimed(address indexed user, uint256 indexed challengeId, uint256 ti
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/arbilearn-proofs.git
-cd arbilearn-proofs
+git clone https://github.com/om151/HackQuest_Arbitrum.git
 ```
 
 ### 2. Install Dependencies
