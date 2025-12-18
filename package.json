@@ -1,0 +1,27 @@
+{
+  "name": "arbilearn-proofs",
+  "version": "1.0.0",
+  "description": "Learn about Arbitrum and claim verifiable on-chain proof of completion",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:local": "hardhat run scripts/deploy.js --network hardhat",
+    "deploy:arbitrum": "hardhat run scripts/deploy.js --network arbitrumSepolia",
+    "verify": "hardhat verify --network arbitrumSepolia"
+  },
+  "keywords": [
+    "arbitrum",
+    "ethereum",
+    "learning",
+    "proof",
+    "web3",
+    "hackathon"
+  ],
+  "author": "ArbiLearn Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.19.0"
+  }
+}
