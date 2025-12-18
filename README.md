@@ -1,4 +1,4 @@
-# 🎓 ArbiLearn Proofs
+# ArbiLearn Proofs
 
 > **Learn about Arbitrum. Earn verifiable on-chain proofs.**
 
@@ -11,22 +11,22 @@ A fully functional dApp where users complete interactive learning challenges abo
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
-- [Problem Statement](#-problem-statement)
-- [Solution](#-solution)
-- [Why Arbitrum?](#-why-arbitrum)
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Architecture](#-architecture)
-- [Smart Contract](#-smart-contract)
-- [Getting Started](#-getting-started)
-- [Demo Instructions](#-demo-instructions)
-- [Future Roadmap](#-future-roadmap)
+- [Problem Statement](#problem-statement)
+- [Solution](#solution)
+- [Why Arbitrum?](#why-arbitrum)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Architecture](#architecture)
+- [Smart Contract](#smart-contract)
+- [Getting Started](#getting-started)
+- [Demo Instructions](#demo-instructions)
+- [Future Roadmap](#future-roadmap)
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 **Traditional learning platforms have a verification problem:**
 
@@ -37,18 +37,18 @@ A fully functional dApp where users complete interactive learning challenges abo
 
 ---
 
-## 💡 Solution
+## Solution
 
 **ArbiLearn Proofs** solves this by:
 
-1. ✅ **On-chain verification** - Proofs stored on Arbitrum blockchain, verifiable by anyone
-2. ✅ **Immutable records** - Once claimed, proofs exist forever on-chain
-3. ✅ **Universal standard** - Anyone can verify completion via smart contract
-4. ✅ **Decentralized** - No single point of failure
+1. **On-chain verification** - Proofs stored on Arbitrum blockchain, verifiable by anyone
+2. **Immutable records** - Once claimed, proofs exist forever on-chain
+3. **Universal standard** - Anyone can verify completion via smart contract
+4. **Decentralized** - No single point of failure
 
 ---
 
-## ⚡ Why Arbitrum?
+## Why Arbitrum?
 
 | Feature               | Benefit                                                 |
 | --------------------- | ------------------------------------------------------- |
@@ -60,27 +60,27 @@ A fully functional dApp where users complete interactive learning challenges abo
 
 ---
 
-## ✨ Features
+## Features
 
 ### Core Features
 
-- 🔗 **Wallet Connection** - RainbowKit integration for seamless wallet connection
-- 📚 **5 Learning Challenges** - Interactive content about Arbitrum
-- ✍️ **Quiz Validation** - Pass the quiz to unlock proof claiming
-- 🏆 **On-Chain Proofs** - Permanent blockchain record of completion
-- 👤 **Profile Dashboard** - View all your claimed proofs
+- **Wallet Connection** - RainbowKit integration for seamless wallet connection
+- **5 Learning Challenges** - Interactive content about Arbitrum
+- **Quiz Validation** - Pass the quiz to unlock proof claiming
+- **On-Chain Proofs** - Permanent blockchain record of completion
+- **Profile Dashboard** - View all your claimed proofs
 
 ### Polish Features
 
-- 🎉 **Confetti Animation** - Celebration on successful proof claim
-- 🔗 **Arbiscan Links** - Direct links to view transactions
-- 📊 **Progress Tracking** - Visual progress bar
-- 📱 **Mobile Responsive** - Works on all devices
-- 🌙 **Dark Mode** - Easy on the eyes
+- **Confetti Animation** - Celebration on successful proof claim
+- **Arbiscan Links** - Direct links to view transactions
+- **Progress Tracking** - Visual progress bar
+- **Mobile Responsive** - Works on all devices
+- **Dark Mode** - Easy on the eyes
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Smart Contract
 
@@ -99,7 +99,7 @@ A fully functional dApp where users complete interactive learning challenges abo
 
 ---
 
-## 🏗 Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -143,7 +143,7 @@ A fully functional dApp where users complete interactive learning challenges abo
 
 ---
 
-## 📜 Smart Contract
+## Smart Contract
 
 ### Contract Address (Arbitrum Sepolia)
 
@@ -172,7 +172,7 @@ event ProofClaimed(address indexed user, uint256 indexed challengeId, uint256 ti
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -246,7 +246,7 @@ Open http://localhost:5173 in your browser.
 
 ---
 
-## 🎮 Demo Instructions
+## Demo Instructions
 
 ### For Hackathon Judges (2-minute test)
 
@@ -262,9 +262,9 @@ Open http://localhost:5173 in your browser.
 
 ---
 
-## 🗺 Future Roadmap
+## Future Roadmap
 
-### Phase 1 - MVP ✅
+### Phase 1 - MVP (Complete)
 
 - [x] Smart contract for proof storage
 - [x] 5 learning challenges
@@ -295,7 +295,7 @@ Open http://localhost:5173 in your browser.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 arbilearn-proofs/
@@ -319,7 +319,7 @@ arbilearn-proofs/
 
 ---
 
-## 🧪 Running Tests
+## Running Tests
 
 ```bash
 # Run all tests
@@ -331,22 +331,22 @@ npx hardhat coverage
 
 ---
 
-## 📄 License
+## License
 
 MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please open an issue or PR.
 
 ---
 
-## 📞 Contact
+## Contact
 
-Built with ❤️ for the Arbitrum Hackathon
+Built for the Arbitrum Hackathon
 
 ---
 
-**🏆 ArbiLearn Proofs - Learn. Prove. Own.**
+**ArbiLearn Proofs - Learn. Prove. Own.**
